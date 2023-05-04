@@ -2,7 +2,7 @@
 
 This package allow you to dynamic import a raw css file or delete an imported one.
 
-#### Why you may need this?
+### Why you may need this?
 
 Sometimes, you need to import a CSS file dynamically for some reason, such as:
 
@@ -25,7 +25,7 @@ import_css(file_name);
 2. you want to import and un-import it anytime!
    - you can place a style tag to document head or remove it.
 
-#### Setup and Usage
+### Setup and Usage
 
 1. run following command for installation:
 
@@ -74,7 +74,7 @@ function App() {
 }
 ```
 
-#### How it works?
+### How it works?
 
 Due to some reasons, react webpack doesn't support un-import an imported CSS, so you may interact with the document head directly.
 
@@ -82,6 +82,6 @@ With `css-loader`, or `raw-loader`, it returns a JavaScript module object with a
 
 So we can then create a style tag in the document head to load the CSS styles directly.
 
-#### Error?
+### Error?
 
 You can check this package directly. I think it is no big deal for you to find out the problem.
