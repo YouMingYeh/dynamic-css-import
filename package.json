@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YouMingYeh/dynamic-css-import-.git"
+    "url": "git+https://github.com/YouMingYeh/dynamic-css-import.git"
   },
   "author": "YouMingYeh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YouMingYeh/dynamic-css-import-/issues"
+    "url": "https://github.com/YouMingYeh/dynamic-css-import/issues"
   },
-  "homepage": "https://github.com/YouMingYeh/dynamic-css-import-#readme",
+  "homepage": "https://github.com/YouMingYeh/dynamic-css-import",
   "dependencies": {
     "css-loader": "^6.7.3",
     "raw-loader": "^4.0.2"
